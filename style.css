@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(kepek/hatter.jpg);
+}
+
+header{
+    background-image: url(kepek/fejlec.jpg);
+}
+
+.egesz{
+    margin: auto;
+    background-color: white;
+    width: 80%;
+}
+
+img{
+    width: 160px;
+}
+
+.main{
+    width: 100%;
+    gap: 0 20px;
+    display: grid;
+    grid-template-columns: auto 1fr 1fr;
+}
+
+nav{
+    background-color: lightblue;
+    margin: 2px;
+    padding: 10px;
+    width: 160px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+header{
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.kepek{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 50px 10px 20px 10px;
+    width: 180px;
+    padding: 10px 10px 20px 10px;
+    border: 1px solid #BFBFBF;
+    background-color: white;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.bal{
+    float: left;
+    -ms-transform: rotate(-8deg);
+    -webkit-transform: rotate(-8deg);
+    transform: rotate(-8deg);
+}
+
+.jobb{
+    float: left;
+    -ms-transform: rotate(7deg);
+    -webkit-transform: rotate(7deg);
+    transform: rotate(7deg);
+}
+
+.szoveg{
+    padding: 20px;
+    border: 2px solid lightgrey;
+}
+
+.szoveg h4, p{
+    padding: 5px;
+}
+
+.szoveg p{
+    text-align: justify;
+}
+
+.szoveg a{
+    margin-top: 20px;
+    display: block;
+}
+
+footer{
+    background-color: rgb(73, 162, 245);
+    text-align: center;
+    padding: 10px;
+    height: 40px;
+}
