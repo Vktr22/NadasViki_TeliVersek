@@ -44,13 +44,21 @@ header{
     padding-bottom: 20px;
 }
 
-thead{
+thead tr{
     background-color: lightblue;
+    border: 0px;
 }
 
 .kek{
     background-color: lightblue;
 }
+
+table tbody tr{
+    border: 0px;
+}
+th, td {
+    border-bottom: 2px solid rgb(77, 144, 237);
+  }
 
 .szoveg{
     padding: 20px;
