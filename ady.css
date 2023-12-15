@@ -18,10 +18,6 @@ header{
     width: 80%;
 }
 
-img{
-    width: 160px;
-}
-
 .main{
     width: 100%;
     gap: 0 20px;
@@ -43,36 +39,6 @@ header{
     text-align: center;
     padding-top: 50px;
     padding-bottom: 20px;
-}
-
-.kepek{
-    display: grid;
-    grid-template-columns: 1fr;
-    margin: 50px 10px 20px 10px;
-    width: 180px;
-    padding: 10px 10px 20px 10px;
-    border: 1px solid #BFBFBF;
-    background-color: white;
-    box-shadow: 10px 10px 5px #aaaaaa;
-}
-
-.bal{
-    float: left;
-    transform: rotate(-8deg);
-    /* 
-    -ms-transform: rotate(-8deg);
-    -webkit-transform: rotate(-8deg);
-    transform: rotate(-8deg);
-    */
-}
-
-.jobb{
-    float: left;
-    /*
-    -ms-transform: rotate(7deg);
-    -webkit-transform: rotate(7deg);
-    */
-    transform: rotate(7deg);
 }
 
 .szoveg{
