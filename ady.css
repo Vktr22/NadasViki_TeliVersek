@@ -26,7 +26,7 @@ header{
 }
 
 nav a{
-    background-color: lightblue;
+    background-color: rgb(86, 154, 210);
     margin: 2px;
     padding: 10px;
     width: 160px;
@@ -42,6 +42,14 @@ header{
     text-align: center;
     padding-top: 50px;
     padding-bottom: 20px;
+}
+
+thead{
+    background-color: lightblue;
+}
+
+.kek{
+    background-color: lightblue;
 }
 
 .szoveg{
@@ -67,4 +75,5 @@ footer{
     text-align: center;
     padding: 10px;
     height: 40px;
+    width: 100%;
 }
